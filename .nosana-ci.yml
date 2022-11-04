@@ -1,4 +1,3 @@
-# .nosana-ci.yml
 nosana:
     description: Build and Test Nosana Contracts
     backend: IPFS
