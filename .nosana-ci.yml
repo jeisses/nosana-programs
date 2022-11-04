@@ -2,7 +2,6 @@ nosana:
     description: Build and Test Nosana Contracts
     backend: IPFS
 
-
 global:
     image: registry.hub.docker.com/projectserum/build:v0.25.0
 
