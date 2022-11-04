@@ -32,12 +32,15 @@ jobs:
     - name: build
       commands:
         - anchor build
+        - ls ./target
       artifacts:
         - name: anchor_target
           path: ./target/
 
     - name: anchor test
       commands:
+          - ls -lha
+          - ls ./target
           - solana-keygen new --no-bip39-passphrase
           - anchor test --skip-build
       resources:
